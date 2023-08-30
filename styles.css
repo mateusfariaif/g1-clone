@@ -16,11 +16,30 @@ body {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
-header {
+.card-image {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.mini-card-image {
+  width: 94px;
+  height: 94px;
+  object-fit: cover;
+}
+
+header,
+footer {
   background-color: #c4170c;
 }
 
 header svg.logo {
+  width: 42px;
+  height: 42px;
+}
+
+footer svg.logo {
   width: 42px;
   height: 42px;
 }
@@ -48,9 +67,13 @@ header form input.buscar::placeholder {
 }
 
 .image-1 {
-  background-image: url("https://s2-g1.glbimg.com/QC4L1OayVKE5UaqUdcq4bbcGL60=/0x289:4200x2652/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/N/B/ww0yYDSWC7CLbMI6uAdA/fta20230819016.jpg");
+  background-image: url("./stf.webp");
 }
 
 .image-2 {
+  background-image: url("https://s2-g1.glbimg.com/QC4L1OayVKE5UaqUdcq4bbcGL60=/0x289:4200x2652/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/N/B/ww0yYDSWC7CLbMI6uAdA/fta20230819016.jpg");
+}
+
+.image-3 {
   background-image: url("https://s2-g1.glbimg.com/W1ThVvlVCspkIycRYptKrFDTz7Y=/0x0:1562x879/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/l/P/NPPN3TT4AbvqdzOcu6yA/captura-de-tela-2023-08-29-194249.png");
 }
