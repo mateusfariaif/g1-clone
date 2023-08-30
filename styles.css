@@ -1,0 +1,56 @@
+body {
+  background-color: #f9f9f9 !important;
+}
+
+.links-container {
+  gap: 16px;
+}
+
+.text-red {
+  color: #c4170c;
+  font-weight: 700;
+}
+
+.text-shadow {
+  color: white;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+header {
+  background-color: #c4170c;
+}
+
+header svg.logo {
+  width: 42px;
+  height: 42px;
+}
+
+header svg.icon-menu {
+  color: white;
+  width: 28px;
+  height: 28px;
+}
+
+header form input.buscar {
+  background-color: #a7140a;
+  border: none;
+}
+
+header form input.buscar::placeholder {
+  color: white;
+  font-weight: 600;
+}
+
+.bg-image {
+  object-fit: contain;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-1 {
+  background-image: url("https://s2-g1.glbimg.com/QC4L1OayVKE5UaqUdcq4bbcGL60=/0x289:4200x2652/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/N/B/ww0yYDSWC7CLbMI6uAdA/fta20230819016.jpg");
+}
+
+.image-2 {
+  background-image: url("https://s2-g1.glbimg.com/W1ThVvlVCspkIycRYptKrFDTz7Y=/0x0:1562x879/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/l/P/NPPN3TT4AbvqdzOcu6yA/captura-de-tela-2023-08-29-194249.png");
+}
